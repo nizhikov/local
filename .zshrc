@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 export MVN_HOME=/Users/user/.sdkman/candidates/maven/3.8.6/bin
 export PATH=$PATH:$MVN_HOME/bin
 
-export NEXUS_USER=nvizhikov.sbt
+source .passwords
 
 alias ls='ls -alFG'
 alias df='df -h'
